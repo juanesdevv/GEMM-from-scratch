@@ -20,17 +20,18 @@ The goal is to understand how memory hierarchy, data reuse, arithmetic intensity
 
 For two square matrices
 
-[
+$$
 C = A \times B
-]
+$$
 
-where (A,B,C \in \mathbb{R}^{N\times N}), the computation requires:
+where (A, B, C \in \mathbb{R}^{N \times N}), the computation requires:
 
-[
+$$
 2N^3
-]
+$$
 
 floating-point operations.
+
 
 This project studies how different implementations affect:
 
